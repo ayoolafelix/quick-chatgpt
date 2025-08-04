@@ -21,6 +21,6 @@ with st.form("chat_interface"):
         "Enter text:"
     )
 
-    submitted = st.form_submit_button("Sumbit")
+    submitted = st.form_submit_button("Submit")
     generate_response(text)
 
